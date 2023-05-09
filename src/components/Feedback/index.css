@@ -1,0 +1,64 @@
+.app-container {
+  background-image: linear-gradient(to right, #ffeeee, #ffc0bb);
+  height: 100vh;
+  padding: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.feedback-card {
+  /* width: 50%; */
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.feedback-question {
+  font-size: 18px;
+  text-align: center;
+  color: #0f172a;
+  font-family: roboto;
+}
+.emoji-name {
+  text-align: center;
+  color: #1e293b;
+  font-family: roboto;
+}
+.emojis-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+.emoji-btn {
+  background-color: transparent;
+  border: none;
+  margin-right: 30px;
+}
+.emoji {
+  width: 50px;
+}
+
+.thank-you-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.love-emoji {
+  width: 50px;
+}
+.thank-you-text {
+  font-size: 18px;
+  color: #0f172a;
+  font-family: roboto;
+}
+
+.description {
+  text-align: center;
+  color: #1e293b;
+  font-family: roboto;
+}
